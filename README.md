@@ -87,6 +87,30 @@ NVS layout and fail-safes are in **[docs/HARDWARE.md](docs/HARDWARE.md)**.
 
 ---
 
+## Control from any BLE app
+
+The controller understands short text commands. The app sends exactly these, so
+you can also script it or drive it from **nRF Connect** (write to the RX characteristic).
+
+| Do | Send |
+|---|---|
+| On / off / instant blackout | `P1` · `P0` · `Z` |
+| Brightness 40 % | `B40` |
+| Colour 1 warm white | `CFF9829` |
+| Effect: Borealis | `M41` (0–49, see the list) |
+| Speed / intensity | `S90` · `I170` |
+| Only walls 1 + 3 | `X5` |
+| Wall 2: light LEDs 41–144 only | `g2,40,143` |
+| Flash wall 3 to find it | `F3` |
+| Sleep in 30 min | `T30` |
+| Save / recall preset 1 | `V0` · `W0` |
+| Controller report · test pattern | `!info` · `!test` |
+
+Full list with value ranges, effect / palette / music IDs, replies and more examples:
+**[docs/PROTOCOL.md](docs/PROTOCOL.md)**.
+
+---
+
 ## How it works
 
 ```
