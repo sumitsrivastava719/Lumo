@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- LUMO mark: four walls of light, a bright core. 66dp safe zone = 21..87 -->
+    <path android:pathData="M38,32L70,32" android:strokeWidth="13" android:strokeAlpha="0.22" android:strokeColor="#FFB547" android:strokeLineCap="round"/>
+    <path android:pathData="M76,38L76,70" android:strokeWidth="13" android:strokeAlpha="0.22" android:strokeColor="#FF4D8D" android:strokeLineCap="round"/>
+    <path android:pathData="M70,76L38,76" android:strokeWidth="13" android:strokeAlpha="0.22" android:strokeColor="#8B5CFF" android:strokeLineCap="round"/>
+    <path android:pathData="M32,70L32,38" android:strokeWidth="13" android:strokeAlpha="0.22" android:strokeColor="#22D3EE" android:strokeLineCap="round"/>
+    <path android:pathData="M38,32L70,32" android:strokeWidth="6" android:strokeColor="#FFB547" android:strokeLineCap="round"/>
+    <path android:pathData="M76,38L76,70" android:strokeWidth="6" android:strokeColor="#FF4D8D" android:strokeLineCap="round"/>
+    <path android:pathData="M70,76L38,76" android:strokeWidth="6" android:strokeColor="#8B5CFF" android:strokeLineCap="round"/>
+    <path android:pathData="M32,70L32,38" android:strokeWidth="6" android:strokeColor="#22D3EE" android:strokeLineCap="round"/>
+    <path android:pathData="M54,49a5,5 0 1,1 0,10a5,5 0 1,1 0,-10z" android:fillColor="#FFFFFF"/>
+</vector>

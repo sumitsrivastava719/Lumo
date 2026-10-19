@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="200" viewBox="0 0 640 200">
+  <defs>
+    <linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#FFB547"/><stop offset=".38" stop-color="#FF4D8D"/><stop offset=".7" stop-color="#8B5CFF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="640" height="200" rx="28" fill="#07080C"/>
+  <g transform="translate(72,40)">
+    <g filter="url(#b)" stroke-width="14" fill="none" opacity=".75">
+      <path d="M26 20H94" stroke="#FFB547"/><path d="M100 26V94" stroke="#FF4D8D"/>
+      <path d="M94 100H26" stroke="#8B5CFF"/><path d="M20 94V26" stroke="#22D3EE"/>
+    </g>
+    <g stroke-width="9" stroke-linecap="round" fill="none">
+      <path d="M26 20H94" stroke="#FFB547"/><path d="M100 26V94" stroke="#FF4D8D"/>
+      <path d="M94 100H26" stroke="#8B5CFF"/><path d="M20 94V26" stroke="#22D3EE"/>
+    </g>
+    <circle cx="60" cy="60" r="9" fill="#fff"/>
+  </g>
+  <text x="232" y="112" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="22" fill="url(#w)">LUMO</text>
+  <text x="235" y="146" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="7" fill="#5C6276">BLUETOOTH ROOM LIGHT</text>
+</svg>

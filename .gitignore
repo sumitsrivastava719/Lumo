@@ -1,0 +1,21 @@
+# ── signing secrets: never publish ──
+android/keystore/
+android/keystore.properties
+*.jks
+*.keystore
+firmware/**/LumoSecrets.h
+
+# ── build output ──
+android/build_manual/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.idsig
+firmware/**/build/
+
+# ── editors / OS ──
+.DS_Store
+.idea/
+.vscode/
+*.iml
